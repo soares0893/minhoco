@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="jquery-3.6.1.js"></script>
+
+    <script>
+
+        /*$(document).ready(function() {
+            window.alert()
+        });*/
+
+        function mudar() {
+            if($("#primeiro-h1").text() == "Meu amor!") {
+                $("#primeiro-h1").html("Minhoco");
+            } else {
+                $("#primeiro-h1").html("Meu amor!");
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <h1 id="primeiro-h1">Meu amor!</h1>
+    <button onclick="mudar()">Mudar</button>    
+</body>
+</html>
